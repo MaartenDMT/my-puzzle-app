@@ -8,3 +8,17 @@ img {
     max-height: max-content;
     max-width: max-content;
   }
+
+
+/* Add some styling for the puzzle pieces */
+.puzzle-piece {
+            width: 33.33%; /* Each piece will take up 1/3 of the total width */
+            height: 33.33%; /* Each piece will take up 1/3 of the total height */
+            float: left; /* Pieces will be floated next to each other horizontally */
+    }
+
+// /* Add some styling for the container */
+// .container {
+//             width: 100%; /* Container will take up the full width */
+//             height: 100%; /* Container will take up the full height */
+//     }
